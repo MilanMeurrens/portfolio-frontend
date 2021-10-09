@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-import Theme from "./components/Theme";
+import Theme from "./styles/Theme";
 
 export const App: FC = () => {
   return (
