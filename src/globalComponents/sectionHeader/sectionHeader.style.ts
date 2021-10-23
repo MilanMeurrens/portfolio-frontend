@@ -18,6 +18,6 @@ export const Container = styled.div`
   .text {
     font-size: 20px;
     line-height: 1.6;
-    color: ${(props) => props.theme.gradients.primaryGradient};
+    color: ${(props) => props.theme.colors.textTransparent};
   }
 `;
