@@ -1,15 +1,12 @@
 import React, { useState } from "react";
 import { Section } from "../../globalComponents";
+import SocialLinks from "../../globalComponents/socialLinks";
 import { useWindowSize } from "../../hooks/useWindowSize";
-import { darkTheme } from "../../styles/themes";
 import {
   Container,
   Name,
   NavLinks,
   NavLink,
-  SocialLinks,
-  IconLink,
-  Icon,
   Sidebar,
   CloseButton,
   CloseIcon,
@@ -37,15 +34,7 @@ export const Navbar: React.FC<{}> = () => {
             <NavLink>Technologies</NavLink>
             <NavLink>About</NavLink>
           </NavLinks>
-
-          <SocialLinks>
-            <IconLink href="https://google.com">
-              <Icon src={"/icons/github.svg"} alt="GitHub" />
-            </IconLink>
-            <IconLink href="https://google.com">
-              <Icon src={"/icons/linkedin.svg"} alt="LinkedIn" />
-            </IconLink>
-          </SocialLinks>
+          <SocialLinks />
         </Sidebar>
       </Container>
     </Section>
