@@ -1,6 +1,6 @@
 import React from "react";
-import { Container } from "./home.style";
+import Banner from "../../components/banner";
 
 export const Home = () => {
-  return <Container>Home</Container>;
+  return <Banner />;
 };
