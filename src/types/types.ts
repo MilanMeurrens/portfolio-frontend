@@ -9,7 +9,14 @@ export type Project = {
   visit_url: string;
 };
 
-export type TimelineElement = {
+export type TechnologyGroup = {
+  id: string;
+  title: string;
+  icon: string;
+  technologies: Array<string>;
+};
+
+export type TimelineEvent = {
   id: string;
   title: string;
   date: string;

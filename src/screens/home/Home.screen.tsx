@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "../../components/banner";
-import ProjectsSection from "../../components/projects";
+import ProjectsSection from "../../components/projectsSection";
+import TechnologiesSection from "../../components/technologiesSection";
 import Divider from "../../globalComponents/divider";
 
 export const Home = () => {
@@ -9,6 +10,8 @@ export const Home = () => {
       <Banner />
       <Divider />
       <ProjectsSection />
+      <Divider />
+      <TechnologiesSection />
     </>
   );
 };

@@ -100,16 +100,3 @@ export const Container = styled.div`
     }
   }
 `;
-
-// <img src={project.header_img} alt={project.title} />
-// <div className="title">{project.title}</div>
-// <div className="divider-blue" />
-// <div className="description">{project.description_short}</div>
-// <div className="divider-purple" />
-// <div className="subtitle">Stack</div>
-// {project.tags.map((tag) => (
-//   <div className="tag">{tag}</div>
-// ))}
-// <a href="#" className="details">
-//   See details
-// </a>

@@ -1,4 +1,4 @@
-import { Project, TimelineElement } from "../types/types";
+import { Project, TechnologyGroup, TimelineEvent } from "../types/types";
 
 export const projects: Array<Project> = [
   {
@@ -43,7 +43,58 @@ export const projects: Array<Project> = [
   },
 ];
 
-export const TimeLineData: Array<TimelineElement> = [
+export const technologies: Array<TechnologyGroup> = [
+  {
+    id: "0",
+    title: "Languages",
+    icon: "html.svg",
+    technologies: ["Python", "JavaScript", "TypeScript", "C/C++", "Dart"],
+  },
+  {
+    id: "1",
+    title: "Front-End",
+    icon: "screen.svg",
+    technologies: ["React.js", "Flutter", "HTML5", "CSS", "Sass", "Bootstrap"],
+  },
+  {
+    id: "2",
+    title: "Back-End",
+    icon: "database.svg",
+    technologies: [
+      "dJANGO",
+      "FastAPI",
+      "Node.js",
+      "Express.js",
+      "SQL Databases",
+      "NoSQL Databases",
+    ],
+  },
+  {
+    id: "3",
+    title: "DevOps",
+    icon: "gear.svg",
+    technologies: ["Dockers", "Jenkins", "AWS", "Google Cloud"],
+  },
+  {
+    id: "4",
+    title: "UI/UX",
+    icon: "website.svg",
+    technologies: ["Experience with tools ike Figma"],
+  },
+  {
+    id: "5",
+    title: "Other",
+    icon: "dots.svg",
+    technologies: [
+      "Electronics",
+      "Embedded Devices",
+      "Robotics",
+      "Data Science",
+    ],
+  },
+];
+
+export const timelineEvents: Array<TimelineEvent> = [
   {
     id: "0",
     title: "The beginning",
