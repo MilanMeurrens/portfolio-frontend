@@ -21,6 +21,7 @@ declare module "styled-components" {
     };
     gradients: {
       primaryGradient: string;
+      primaryGradientVertical: string;
     };
     breakpoints: {
       sm: string;
@@ -46,6 +47,7 @@ export const darkTheme = {
   },
   gradients: {
     primaryGradient: "linear-gradient(90deg, #A56BEE 0%, #2F99BA 100%)",
+    primaryGradientVertical: "linear-gradient(#A56BEE 0%, #2F99BA 100%)",
   },
   breakpoints: {
     sm: "screen and (max-width: 640px)",
