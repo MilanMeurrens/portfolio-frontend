@@ -2,11 +2,18 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   position: relative;
-  width: 200px;
+  width: 300px;
   height: 300px;
   margin-bottom: 50px;
-
   border-radius: 90px;
+
+  /* display: flex;
+  justify-content: center; */
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    height: unset;
+    margin-bottom: 20px;
+  }
 
   .background {
     position: absolute;
@@ -22,18 +29,39 @@ export const Container = styled.div`
       box-shadow: 0px 0px 15px 10px rgba(80, 78, 78, 1);
       opacity: 0.2;
     }
+
+    @media ${(props) => props.theme.breakpoints.sm} {
+      &:hover {
+        background: unset;
+        box-shadow: unset;
+        opacity: unset;
+      }
+    }
   }
 
   .content {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
+    max-width: 150px;
     pointer-events: none;
+    padding: 20px 0px;
+    margin-left: 80px;
 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
+
+    @media ${(props) => props.theme.breakpoints.sm} {
+      position: unset;
+      margin-left: unset;
+      margin: 0 auto;
+    }
+
+    img {
+      margin-bottom: 7px;
+    }
 
     .title {
       color: ${(props) => props.theme.colors.text};
