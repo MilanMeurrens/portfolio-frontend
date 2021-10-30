@@ -8,9 +8,20 @@ export const Container = styled.div`
   }
 
   @media ${(props) => props.theme.breakpoints.lg} {
+    .timeline {
+      width: calc(480px + (2 * 80px));
+    }
   }
+
   @media ${(props) => props.theme.breakpoints.md} {
+    .timeline {
+      width: 480px;
+    }
   }
+
   @media ${(props) => props.theme.breakpoints.sm} {
+    .timeline {
+      width: 280px;
+    }
   }
 `;

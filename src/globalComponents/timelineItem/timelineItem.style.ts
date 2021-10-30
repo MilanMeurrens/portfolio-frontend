@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-const POINT_DIAMETER = "26px";
+const POINT_DIAMETER = "20px";
 const LINE_WIDTH = "6px";
-const WIDTH = "480px";
+const WIDTH = "450px";
 const SPACING = "80px";
 
 // Hover Animation
@@ -124,6 +124,79 @@ export const Container = styled.div`
 
     .content {
       left: ${ANIMATION_LENGTH};
+    }
+  }
+
+  @media ${(props) => props.theme.breakpoints.lg} {
+    .content {
+      left: 0 !important;
+    }
+
+    .date {
+      left: calc(${WIDTH} + ${SPACING});
+    }
+
+    &:hover {
+      .content {
+        left: ${ANIMATION_LENGTH} !important;
+      }
+
+      .date {
+        left: calc(${WIDTH} + ${SPACING} - ${ANIMATION_LENGTH}) !important;
+      }
+    }
+  }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    .content {
+      left: ${SPACING} !important;
+    }
+
+    .date {
+      position: unset;
+      text-align: left !important;
+      margin-left: ${SPACING} !important;
+      margin-bottom: 15px;
+    }
+
+    .line {
+      left: calc(-${LINE_WIDTH} / 2);
+    }
+
+    .point {
+      left: calc(-${POINT_DIAMETER} / 2);
+      top: -5px;
+    }
+
+    &:hover {
+      .content {
+        left: ${SPACING} !important;
+      }
+
+      .date {
+        font-size: 16px;
+      }
+    }
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    .content {
+      left: 30px !important;
+      width: 250px;
+    }
+
+    .date {
+      margin-left: 30px !important;
+    }
+
+    &:hover {
+      .content {
+        left: 30px !important;
+      }
+
+      .date {
+        font-size: 16px;
+      }
     }
   }
 `;
