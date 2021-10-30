@@ -59,8 +59,8 @@ export const Container = styled.div`
 
   .point {
     background: ${(props) => props.theme.gradients.primaryGradient};
-    width: 26px;
-    height: 26px;
+    width: ${POINT_DIAMETER};
+    height: ${POINT_DIAMETER};
 
     position: absolute;
     left: calc(${WIDTH} - (${POINT_DIAMETER} / 2));
@@ -127,6 +127,10 @@ export const Container = styled.div`
     .content {
       left: calc(${WIDTH} + ${SPACING} - ${ANIMATION_LENGTH});
     }
+
+    .point {
+      background: ${(props) => props.theme.colors.primary1};
+    }
   }
 
   &:hover:nth-child(odd) {
@@ -139,6 +143,10 @@ export const Container = styled.div`
 
     .content {
       margin-left: ${ANIMATION_LENGTH};
+    }
+
+    .point {
+      background: ${(props) => props.theme.colors.primary2};
     }
   }
 `;
