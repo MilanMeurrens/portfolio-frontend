@@ -21,6 +21,8 @@ export const Container = styled.div`
     padding: 20px 25px;
     transition: all ${ANIMATION_TIME};
     border-radius: 10px;
+    width: calc(${WIDTH} - ${SPACING});
+    position: absolute;
 
     /* opacity: 0.4; */
     box-shadow: 0px 0px 5px 3px rgba(56, 71, 101, 0.5);
@@ -38,12 +40,17 @@ export const Container = styled.div`
       line-height: 1.5;
       text-align: justify;
     }
+
+    &:nth-child(3) {
+      visibility: hidden;
+      position: unset;
+    }
   }
 
   .date {
     position: absolute;
-    left: calc(${WIDTH} + ${SPACING});
     transition: all ${ANIMATION_TIME};
+    color: ${(props) => props.theme.colors.textTransparent};
   }
 
   .line {
@@ -69,48 +76,30 @@ export const Container = styled.div`
   }
 
   &:nth-child(even) {
-    padding-right: ${SPACING};
-
     .content {
-      width: calc(${WIDTH} - ${SPACING});
-      position: absolute;
       left: calc(${WIDTH} + ${SPACING});
-
-      &:nth-child(3) {
-        visibility: hidden;
-        position: unset;
-      }
     }
 
     .date {
       text-align: right;
-      position: absolute;
-      left: unset;
       right: ${SPACING};
     }
   }
 
   &:nth-child(odd) {
-    padding-right: ${SPACING};
-
     .content {
-      &:nth-child(3) {
-        visibility: hidden;
-        position: absolute;
-      }
+      left: 0;
     }
 
     .date {
-      position: absolute;
       left: calc(${WIDTH} + ${SPACING});
-      transition: all ${ANIMATION_TIME};
     }
   }
 
   &:hover {
     .date {
-      /* font-weight: bold; */
       font-size: 18px;
+      color: ${(props) => props.theme.colors.text};
     }
 
     .content {
@@ -121,32 +110,20 @@ export const Container = styled.div`
   &:hover:nth-child(even) {
     .date {
       right: calc(${SPACING} - ${ANIMATION_LENGTH});
-      color: ${(props) => props.theme.colors.primary1};
     }
 
     .content {
       left: calc(${WIDTH} + ${SPACING} - ${ANIMATION_LENGTH});
-    }
-
-    .point {
-      background: ${(props) => props.theme.colors.primary1};
     }
   }
 
   &:hover:nth-child(odd) {
-    padding-right: calc(${SPACING} - ${ANIMATION_LENGTH});
-
     .date {
       left: calc(${WIDTH} + ${SPACING} - ${ANIMATION_LENGTH});
-      color: ${(props) => props.theme.colors.primary2};
     }
 
     .content {
-      margin-left: ${ANIMATION_LENGTH};
-    }
-
-    .point {
-      background: ${(props) => props.theme.colors.primary2};
+      left: ${ANIMATION_LENGTH};
     }
   }
 `;

@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  .technology-groups {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  .timeline {
+    width: calc(480px * 2);
+    margin-left: auto;
+    margin-right: auto;
   }
 
   @media ${(props) => props.theme.breakpoints.lg} {
