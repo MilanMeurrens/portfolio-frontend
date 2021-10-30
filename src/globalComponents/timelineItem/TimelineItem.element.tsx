@@ -14,6 +14,10 @@ export const TimelineItem: React.FC<Props> = ({ event }) => {
         <div className="title">{event.title}</div>
         <div className="description">{event.description}</div>
       </div>
+      <div className="content">
+        <div className="title">{event.title}</div>
+        <div className="description">{event.description}</div>
+      </div>
       <div className="line" />
       <div className="point" />
     </Container>
