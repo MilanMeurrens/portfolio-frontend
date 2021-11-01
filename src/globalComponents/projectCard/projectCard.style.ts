@@ -12,21 +12,44 @@ export const Container = styled.div`
     box-shadow: 0px 0px 15px 10px rgba(80, 78, 78, 0.5);
   }
 
-  @media ${(props) => props.theme.breakpoints.sm} {
-    /* text-align: center; */
+  @media ${(props) => props.theme.breakpoints.lg} {
+    width: 500px;
+    /* height: 650px; */
+    height: unset;
+    margin-bottom: 80px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    width: 300px;
+    /* height: 700px; */
+    margin-bottom: 50px;
   }
 
   img {
-    width: 400px;
-    height: 230px;
+    width: 100%;
+    height: calc(100% / 3);
     object-fit: cover;
+
+    @media ${(props) => props.theme.breakpoints.lg} {
+      height: 220px;
+    }
+
+    @media ${(props) => props.theme.breakpoints.md} {
+      /* height: calc(100% / 4); */
+    }
   }
 
   .content {
-    height: calc(100% - 230px);
+    height: calc(100% - 100% / 3);
     padding: 25px 50px;
     display: flex;
     flex-direction: column;
+
+    @media ${(props) => props.theme.breakpoints.md} {
+      padding: 25px 25px;
+      /* height: calc(100% - 100% / 4); */
+      height: unset;
+    }
 
     .title {
       font-size: 28px;
@@ -53,6 +76,10 @@ export const Container = styled.div`
       color: ${(props) => props.theme.colors.textTransparent};
       line-height: 1.5;
       text-align: justify;
+
+      @media ${(props) => props.theme.breakpoints.lg} {
+        flex: unset;
+      }
     }
 
     .subtitle {

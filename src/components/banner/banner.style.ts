@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   .banner-left {
     max-width: 657px;
-    min-height: 520px;
+    min-height: 460px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -17,6 +17,7 @@ export const Container = styled.div`
 
   .title-container {
     position: relative;
+    margin-bottom: 60px;
 
     .title {
       position: relative;
@@ -37,6 +38,7 @@ export const Container = styled.div`
     font-size: 22px;
     line-height: 1.6;
     color: ${(props) => props.theme.colors.textTransparent};
+    margin-bottom: 50px;
   }
 
   .btn-contact {
