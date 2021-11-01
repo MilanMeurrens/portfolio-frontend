@@ -36,6 +36,7 @@ export const Sidebar = styled.div<SidebarType>`
     right: 0;
     width: 200px;
     height: 100vh;
+    border-radius: 150px 0 0 150px;
   }
 `;
 
