@@ -30,9 +30,9 @@ export const Navbar: React.FC<{}> = () => {
             <CloseIcon src={"/icons/close.svg"} alt="Close" />
           </CloseButton>
           <NavLinks>
-            <NavLink>Projects</NavLink>
-            <NavLink>Technologies</NavLink>
-            <NavLink>About</NavLink>
+            <NavLink href="#projects">Projects</NavLink>
+            <NavLink href="#technologies">Technologies</NavLink>
+            <NavLink href="#about">About</NavLink>
           </NavLinks>
           <SocialLinks />
         </Sidebar>

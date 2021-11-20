@@ -7,7 +7,7 @@ import { TimelineEvent } from "../../types/types";
 import TimelineItem from "../../globalComponents/timelineItem";
 
 export const AboutMeSection: React.FC<{}> = () => (
-  <Section>
+  <Section id="about">
     <Container>
       <SectionHeader
         title={"About Me"}

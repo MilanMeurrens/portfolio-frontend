@@ -108,7 +108,7 @@ export const NavLinks = styled.div`
   }
 `;
 
-export const NavLink = styled.div`
+export const NavLink = styled.a`
   font-size: 20px;
   color: ${(props) => props.theme.colors.textTransparent};
 

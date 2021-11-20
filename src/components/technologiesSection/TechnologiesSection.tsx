@@ -7,7 +7,7 @@ import { TechnologyGroup } from "../../types/types";
 import TechnologyCard from "../../globalComponents/technologyCard";
 
 export const TechnologiesSection: React.FC<{}> = () => (
-  <Section>
+  <Section id="technologies">
     <Container>
       <SectionHeader
         title={"Technologies"}

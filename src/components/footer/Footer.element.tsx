@@ -4,7 +4,7 @@ import SocialLinks from "../../globalComponents/socialLinks";
 import { Container, Divider } from "./footer.style";
 
 export const Footer: React.FC<{}> = () => (
-  <Container>
+  <Container id="contact">
     <Section>
       <Divider />
       <div className="footer-content">

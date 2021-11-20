@@ -22,7 +22,9 @@ export const Banner: React.FC<{}> = () => (
           developers to take their development skills to the next level and
           build awesome apps.
         </div>
-        <button className="btn-contact">Contact</button>
+        <a href="#contact">
+          <button className="btn-contact">Contact</button>
+        </a>
       </div>
     </Container>
   </Section>

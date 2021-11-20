@@ -7,7 +7,7 @@ import { projects } from "../../constants/constants";
 import { Project } from "../../types/types";
 
 export const ProjectsSection: React.FC<{}> = () => (
-  <Section>
+  <Section id="projects">
     <Container>
       <SectionHeader
         title={"Projects"}
