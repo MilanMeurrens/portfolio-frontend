@@ -21,6 +21,16 @@ export const projects: Array<Project> = [
     visit_url: "https://google.com",
     id: "1",
   },
+  {
+    title: "FindMyMaker",
+    description_short:
+      "A full-stack web app to connect people who need something 3D-printer, laser cutted or similar to DIY hobbyists who have these machines and want to earn some money with them. An profile displays somebody's available machines and materials.",
+    header_img: "/images/findmymaker.png",
+    tags: ["Python", "Django", "HTML", "CSS", "JavaScript"],
+    source_code_url: "https://google.com",
+    visit_url: "https://google.com",
+    id: "1",
+  },
 ];
 
 export const technologies: Array<TechnologyGroup> = [
