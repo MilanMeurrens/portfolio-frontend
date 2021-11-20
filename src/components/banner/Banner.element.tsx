@@ -18,9 +18,9 @@ export const Banner: React.FC<{}> = () => (
           </span>
         </div>
         <div className="text">
-          The purpose of JavaScript Mastery is to help aspiring and established
-          developers to take their development skills to the next level and
-          build awesome apps.
+          Hello, my name is Milan Meurrens. I'm a software engineer with a
+          background in electronics. Technology and science are my interests but
+          making things from scratch is my passion!
         </div>
         <a href="#contact">
           <button className="btn-contact">Contact</button>

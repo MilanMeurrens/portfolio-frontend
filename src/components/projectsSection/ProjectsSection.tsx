@@ -12,7 +12,7 @@ export const ProjectsSection: React.FC<{}> = () => (
       <SectionHeader
         title={"Projects"}
         text={
-          "Tesxt afd hfdh fh f  fjdo jdfdf vbsohf gh vnkfhbih uwhvv bkdhkfh knvb dfhj, fdfj df fdkhf fhdhf."
+          "I keep myself busy at nights and weekends with some projects. These can be MVPs of product ideas or just me having some fun with a new framework or programming language."
         }
       />
       <div className="project-cards">

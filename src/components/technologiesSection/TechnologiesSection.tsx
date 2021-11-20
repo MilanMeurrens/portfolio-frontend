@@ -12,7 +12,7 @@ export const TechnologiesSection: React.FC<{}> = () => (
       <SectionHeader
         title={"Technologies"}
         text={
-          "Tesxt afd hfdh fh f  fjdo jdfdf vbsohf gh vnkfhbih uwhvv bkdhkfh knvb dfhj, fdfj df fdkhf fhdhf."
+          "Throughout the years, I've gained experience with many different technologies. What I'm working on is more important to me than how I do it. The programming language or framework doesn't really matter, as long as it gets things done!"
         }
       />
       <div className="technology-groups">

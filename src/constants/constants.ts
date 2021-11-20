@@ -2,44 +2,24 @@ import { Project, TechnologyGroup, TimelineEvent } from "../types/types";
 
 export const projects: Array<Project> = [
   {
-    title: "MERN Memories",
+    title: "Portfolio Website",
     description_short:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-    header_img: "/images/image1.png",
-    tags: ["Mongo", "Express", "React", "Node"],
+      "A website entirely build from scratch using React to complement my resume. This site shows some more details about myself and all the side-projects I've worked on.",
+    header_img: "/images/portfolio.png",
+    tags: ["React", "TypeScript", "HTML", "CSS"],
     source_code_url: "https://google.com",
     visit_url: "https://google.com",
     id: "0",
   },
   {
-    title: "E-Commerce",
+    title: "Shopping List App",
     description_short:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio.",
-    header_img: "/images/image2.png",
-    tags: ["React", "JavaScript"],
+      "A full-stack Android app with the main goal to simplify creating your weekly shopping list. You can add multiple dishes to your cart and automatically generate a shopping list from this. When not sure what to make, just add a random dish.",
+    header_img: "/images/flutter.png",
+    tags: ["Dart", "Flutter", "Python", "Django", "Google Firebase"],
     source_code_url: "https://google.com",
     visit_url: "https://google.com",
     id: "1",
-  },
-  {
-    title: "WebRTC App",
-    description_short:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-    header_img: "/images/image1.png",
-    tags: ["React", "WebRTC"],
-    source_code_url: "https://google.com",
-    visit_url: "https://google.com",
-    id: "2",
-  },
-  {
-    title: "Unichat",
-    description_short:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    header_img: "/images/image2.png",
-    tags: ["React", "ChatEngine", "Firebase"],
-    source_code_url: "https://google.com",
-    visit_url: "https://google.com",
-    id: "3",
   },
 ];
 

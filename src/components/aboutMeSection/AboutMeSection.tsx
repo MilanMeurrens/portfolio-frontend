@@ -12,7 +12,7 @@ export const AboutMeSection: React.FC<{}> = () => (
       <SectionHeader
         title={"About Me"}
         text={
-          "The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps."
+          "I try to be a 'specialized generalist', combining snippets of knowledge from all my past experience in different industries together."
         }
       />
       <div className="timeline">

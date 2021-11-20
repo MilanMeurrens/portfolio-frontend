@@ -24,9 +24,9 @@ export const ProjectCard: React.FC<Props> = ({ project }) => {
             </div>
           ))}
         </div>
-        <a href="#" className="details">
+        {/* <a href="#" className="details">
           See details
-        </a>
+        </a> */}
       </div>
     </Container>
   );
