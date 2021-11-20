@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  margin-top: 60px;
+
   .banner-left {
     max-width: 657px;
     min-height: 460px;
@@ -53,6 +55,7 @@ export const Container = styled.div`
   }
 
   .animation {
+    pointer-events: none;
     width: 900px;
     position: absolute;
     overflow: visible;

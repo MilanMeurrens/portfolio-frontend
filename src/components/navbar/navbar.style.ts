@@ -1,9 +1,34 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  position: fixed;
+  width: 100vw;
+  z-index: 100;
+  left: 0;
+  top: -64px;
+  transition: all 0.6s;
+  background: linear-gradient(90deg, #322047 0%, #0e2e38 100%);
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: auto;
+    padding: 15px 60px 15px 60px;
+
+    @media ${(props) => props.theme.breakpoints.sm} {
+      padding: 15px 16px 15px 16px;
+    }
+  }
+
+  &[data-visible="true"] {
+    top: 0;
+  }
+
+  &[data-transparent="false"] {
+    /* background: linear-gradient(90deg, #64408f 0%, #1c5c70 100%); */
+  }
 `;
 
 export const Name = styled.div`
@@ -36,7 +61,6 @@ export const Sidebar = styled.div<SidebarType>`
     right: 0;
     width: 200px;
     height: 100vh;
-    border-radius: 150px 0 0 150px;
   }
 `;
 
@@ -57,7 +81,6 @@ export const OpenButton = styled.div`
 
 export const OpenIcon = styled.img`
   &:hover {
-    /* width: 38px; */
     cursor: pointer;
   }
 
@@ -114,10 +137,7 @@ export const NavLink = styled.a`
 
   &:hover {
     cursor: pointer;
-    /* background: ${(props) => props.theme.gradients.primaryGradient};
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: rgba(0, 0, 0, 0); */
+    color: ${(props) => props.theme.colors.text};
     font-weight: bold;
   }
 
