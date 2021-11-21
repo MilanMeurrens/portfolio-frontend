@@ -96,6 +96,7 @@ export const Container = styled.div`
 
     .tag-container {
       position: relative;
+      margin-top: 10px;
 
       .tag-background {
         position: absolute;
