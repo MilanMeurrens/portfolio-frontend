@@ -53,6 +53,7 @@ export const Container = styled.div`
     position: absolute;
     transition: all ${ANIMATION_TIME};
     color: ${(props) => props.theme.colors.textTransparent};
+    width: ${WIDTH};
   }
 
   .line {
@@ -136,6 +137,7 @@ export const Container = styled.div`
 
     .date {
       left: calc(${WIDTH} + ${SPACING});
+      text-align: left !important;
     }
 
     &:hover {

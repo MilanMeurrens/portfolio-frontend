@@ -103,13 +103,20 @@ export const timelineEvents: Array<TimelineEvent> = [
     title: "✓ I'm not a robot",
     date: "August 2018 – January 2021",
     description: `Deciding to combine my knowledge of electronics and software engineering, I joined a robotics company. The obvious choice was to start in embedded software, but I quickly moved around to help where needed.
-      \nIn my 2.5 years there, I've gained experience with all software related parts of a robot including complex state machines, path finding, robot vision and many more.`,
+      \nIn the 2.5 years there, I've gained experience with all software related parts of a robot. This includus complex state machines, path finding, robot vision and many more.`,
   },
   {
-    id: "2",
-    title: "I'm not a consultant",
-    date: "August 2018 – January 2021",
-    description: `Deciding to combine my knowledge of electronics and software engineering, I joined a robotics company. The obvious choice was to start in embedded software, but I quickly moved around to help where needed.
-      \nIn my 2.5 years there, I've gained experience with all software related parts of a robot including complex state machines, path finding, robot vision and many more.`,
+    id: "3",
+    title: "Consultancy is not for me",
+    date: "January 2021 –  June 2021",
+    description: `Having worked as a Python consultant for half a year, I can now definitely say consultancy is not for me. I want to be an actual part of a company, working towards a common goal with a motivated team.
+      \nAs a consultant, I never found the connection to the company and product that I'm looking for. Feeling disposable, just a number, drained me. I decided to move on quickly. `,
+  },
+  {
+    id: "4",
+    title: "Startups are fun",
+    date: "June 2021 – Now",
+    description: `Stumbling across CityLegends online, it was an instant match. Building a full-stack application from scratch while also brainstorming about the features, UX/UI design, marketing etc. was exactly what I was looking for.
+      \nFor now, we are a small team trying to create something that gives value to the urban sporters community. I'm excited to see what the future holds!`,
   },
 ];
