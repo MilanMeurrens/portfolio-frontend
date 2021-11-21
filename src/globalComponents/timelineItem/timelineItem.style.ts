@@ -39,6 +39,8 @@ export const Container = styled.div`
       font-size: 16px;
       line-height: 1.5;
       text-align: justify;
+      /* white-space: pre-wrap; */
+      white-space: pre-line;
     }
 
     &:nth-child(3) {

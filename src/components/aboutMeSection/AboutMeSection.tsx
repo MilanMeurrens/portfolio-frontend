@@ -12,7 +12,7 @@ export const AboutMeSection: React.FC<{}> = () => (
       <SectionHeader
         title={"About Me"}
         text={
-          "I try to be a 'specialized generalist', combining snippets of knowledge from all my past experience in different industries together."
+          "I try to be a 'specialized generalist', combining snippets of knowledge from all my past experiences in different industries together."
         }
       />
       <div className="timeline">

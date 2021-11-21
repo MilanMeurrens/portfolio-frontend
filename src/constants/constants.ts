@@ -87,24 +87,29 @@ export const technologies: Array<TechnologyGroup> = [
 export const timelineEvents: Array<TimelineEvent> = [
   {
     id: "0",
-    title: "The beginning",
-    date: "Januari 2020",
-    description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    title: "Building a solar car",
+    date: "October 2017",
+    description: `After one and a half year of non-stop working, we finished third in the world championship for solar cars. In this race, teams from all over the world race 3000km through the desert of Australia. This while solely relying on the energy of the sun.
+    \n In this team, I was responsible for creating the electronics with its accompanying embedded software and a data-monitoring programm. This program tracked and visualized everything that was going on inside the car from a distance.`,
   },
   {
     id: "1",
-    title: "The middle",
-    date: "March 2020",
-    description: `This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application.
-      This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application.
-      This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application`,
+    title: "Graduation",
+    date: "June 2018",
+    description: `One bachelor's, master's, and postgraduate degree later, I was ready to enter the world of work.`,
   },
   {
     id: "2",
-    title: "The end",
-    date: "December 2020",
-    description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    title: "✓ I'm not a robot",
+    date: "August 2018 – January 2021",
+    description: `Deciding to combine my knowledge of electronics and software engineering, I joined a robotics company. The obvious choice was to start in embedded software, but I quickly moved around to help where needed.
+      \nIn my 2.5 years there, I've gained experience with all software related parts of a robot including complex state machines, path finding, robot vision and many more.`,
+  },
+  {
+    id: "2",
+    title: "I'm not a consultant",
+    date: "August 2018 – January 2021",
+    description: `Deciding to combine my knowledge of electronics and software engineering, I joined a robotics company. The obvious choice was to start in embedded software, but I quickly moved around to help where needed.
+      \nIn my 2.5 years there, I've gained experience with all software related parts of a robot including complex state machines, path finding, robot vision and many more.`,
   },
 ];
