@@ -19,15 +19,15 @@ export const Container = styled.div`
     position: absolute;
     width: 100%;
     height: 100%;
-    background: ${(props) => props.theme.gradients.primaryGradient};
+    background: ${(props) => props.theme.colors.backgroundMiddle};
     border-radius: 10px;
     transition: opacity 0.2s;
     opacity: 0;
 
     &:hover {
-      background: ${(props) => props.theme.gradients.primaryGradient};
-      box-shadow: 0px 0px 15px 10px rgba(80, 78, 78, 1);
-      opacity: 0.2;
+      background: ${(props) => props.theme.colors.backgroundMiddle};
+      box-shadow: 0px 0px 15px 9px hsl(220, 29%, 31%, 60%);
+      opacity: 1;
     }
 
     @media ${(props) => props.theme.breakpoints.sm} {
