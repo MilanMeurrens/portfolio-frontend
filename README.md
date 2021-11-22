@@ -1,4 +1,0 @@
-Todo:
-
-- WebPack
-- Next.js

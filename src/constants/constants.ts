@@ -4,7 +4,7 @@ export const projects: Array<Project> = [
   {
     title: "Portfolio Website",
     description_short:
-      "A responsive website entirely build from scratch using React to complement my resume. This site shows some more details about myself and all the side-projects I've worked on.",
+      "Responsive website entirely build from scratch using React to complement my resume. This site shows some more details about myself and all the side-projects I've worked on.",
     header_img: "/images/portfolio.png",
     tags: ["React", "TypeScript", "HTML", "CSS"],
     source_code_url: "https://google.com",
@@ -14,7 +14,7 @@ export const projects: Array<Project> = [
   {
     title: "Shopping List App",
     description_short:
-      "A full-stack Android app with the main goal to simplify creating your weekly shopping list. You can add multiple dishes to your cart and automatically generate a shopping list from this. When not sure what to make, just add a random dish.",
+      "Full-stack Android app with the main goal to simplify creating your weekly shopping list. You can add multiple dishes to your cart and automatically generate a shopping list from this. When not sure what to make, just add a random dish.",
     header_img: "/images/flutter.png",
     tags: ["Dart", "Flutter", "Python", "Django", "Google Firebase"],
     source_code_url: "https://google.com",
@@ -24,7 +24,7 @@ export const projects: Array<Project> = [
   {
     title: "FindMyMaker",
     description_short:
-      "A full-stack web app for people who need something 3D-printed, laser cutted or similar. It connects them to DIY hobbyists who have these machines. An profile displays somebody's available machines and materials.",
+      "Full-stack web app for people who need something 3D-printed, laser cutted or similar. It connects them to DIY hobbyists who have these machines. An profile displays somebody's available machines and materials.",
     header_img: "/images/findmymaker.png",
     tags: ["Python", "Django", "HTML", "CSS", "JavaScript"],
     source_code_url: "https://google.com",
