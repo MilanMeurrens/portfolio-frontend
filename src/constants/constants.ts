@@ -14,7 +14,7 @@ export const projects: Array<Project> = [
   {
     title: "Shopping List App",
     description_short:
-      "Full-stack Android app with the main goal to simplify creating your weekly shopping list. You can add multiple dishes to your cart and automatically generate a shopping list from this. When not sure what to make, just add a random dish.",
+      "Full-stack Android app to simplify creating your weekly shopping list. You can add multiple dishes to your cart and automatically generate a shopping list from them. When not sure what to make, just add a random dish.",
     header_img: "/images/flutter.png",
     tags: ["Dart", "Flutter", "Python", "Django", "Google Firebase"],
     source_code_url: "https://google.com",
@@ -24,7 +24,7 @@ export const projects: Array<Project> = [
   {
     title: "FindMyMaker",
     description_short:
-      "Full-stack web app for people who need something 3D-printed, laser cutted or similar. It connects them to DIY hobbyists who have these machines. An profile displays somebody's available machines and materials.",
+      "Full-stack web app for people who need something 3D-printed, laser cutted or similar. It connects them to DIY hobbyists who have these machines. A profile displays somebody's available machines and materials.",
     header_img: "/images/findmymaker.png",
     tags: ["Python", "Django", "HTML", "CSS", "JavaScript"],
     source_code_url: "https://google.com",
@@ -90,7 +90,7 @@ export const timelineEvents: Array<TimelineEvent> = [
     title: "Building a solar car",
     date: "October 2017",
     description: `After one and a half year of non-stop working, we finished third in the world championship for solar cars. In this race, teams from all over the world race 3000km through the desert of Australia. This while solely relying on the energy of the sun.
-    \n In this team, I was responsible for creating the electronics with its accompanying embedded software and a data-monitoring programm. This program tracked and visualized everything that was going on inside the car from a distance.`,
+    \n In this team, I was responsible for creating the electronics with its accompanying embedded software and a data-monitoring program. The program tracked and visualized everything that was going on inside the car from a distance.`,
   },
   {
     id: "1",
@@ -103,7 +103,7 @@ export const timelineEvents: Array<TimelineEvent> = [
     title: "✓ I'm not a robot",
     date: "August 2018 – January 2021",
     description: `Deciding to combine my knowledge of electronics and software engineering, I joined a robotics company. The obvious choice was to start in embedded software, but I quickly moved around to help where needed.
-      \nIn the 2.5 years there, I've gained experience with all software related parts of a robot. This includus complex state machines, path finding, robot vision and many more.`,
+      \nIn the 2.5 years there, I've gained experience with all software related parts of a robot. This includus complex state machines, path finding, robot vision and much more.`,
   },
   {
     id: "3",
